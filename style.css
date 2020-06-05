@@ -1,0 +1,139 @@
+a:hover {
+  background-color: #2734CB;
+}
+.navbar{
+	background-color: #0D70F6 !important;
+}
+.nav-link{
+	color: white !important;
+	font-weight: bold !important;
+}
+h1{
+	color: black !important;
+	text-align: center !important;
+}
+h2
+{
+	font-family:cursive,URW Chancery L;
+	text-align: center;
+	color:  #0D70F6;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.div1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	justify-content: space-around;
+	margin-top: 20px;
+	
+}
+.reg{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.blue{
+	width: 250px;
+	height: 250px;
+	background-color:#8AB0F1;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+	
+}
+.white{
+	width: 300px;
+	height: 250px;
+	margin-right: 25px;
+	margin-left: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px;
+
+}
+/*-------------------icon back to top-----------------*/
+.img{
+	position:fixed;
+	bottom:20px;
+	right: 20px;
+	width: 90px;
+}
+/*------------------ download9 img-----------------*/
+.img2{
+width:50%; 
+height:30%;
+}
+.fa{
+	color: #0D70F6;
+	font-size: 50px;
+	margin-right: 10px;
+}
+.btn-primary{
+	background-color:  #0D70F6;
+	width: 100%;
+}
+.card{
+	margin-bottom: 10px;
+	box-shadow: 2px 4px 4px grey;
+}
+.card1,.card2,.card3,.card4,.teacher{
+	display:flex;
+	width: 250px;
+	height: 80px;
+	box-shadow: 2px 4px 4px black;
+	flex-direction: row;
+	margin-bottom: 20px;
+	
+}
+.div2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+@media screen and (max-width:600px){
+	.card1,.card2,.card3,.card4,.teacher{
+		width: 100%;
+	}
+@media screen and (max-width:700px){
+	.img2{
+		height:500px;
+		width:150px; 
+	}
+}
+.div3{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	box-shadow: 2px 4px 4px grey;
+}
+/*---------------footer ----------------------------*/
+.div4{
+	  column-gap: 40px;
+	  column-rule: 4px double #ff00ff;
+	    column-rule-width: 10px;
+
+}
+.image{
+	height: 400px;
+	width: 700px;
+	box-shadow: 3px 50px 5px black;
+}
+.footer{
+	position:relative;
+  left: 0;
+  bottom: 0;
+ display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  width: 100%;
+  background-color: #0B3E95;
+  color: white;
+}
